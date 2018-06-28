@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta content="initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/libs.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+	
+	<header class="white_bg">
+		<div class="first_header">
+			<div class="container">
+				<div class="lang_block">
+					<a href="#">
+						<p>ru</p>
+					</a>
+				</div>
+				<div class="special_abilities">
+					<a href="#">
+						<i class="mdi mdi-file-tree"></i>
+						<p>Карта сайта</p>
+					</a>
+					
+				</div>
+				
+				<div class="live_chat_block">
+					<form>
+						<input type="text" placeholder="Поиск" name="">
+					</form>
+					<i class="mdi mdi-magnify search_icon"></i>
+				</div>
+				
+				
+				<div class="menu_icon_block">
+					<i class="mdi mdi-menu"></i>
+				</div>
+				<div class="responsive_menu_block">
+					<div class="responsive_menu">
+						<a href="technics.html">Техника</a>
+						<a href="#">Запчасти</a>
+						<a href="#">Сервис</a>
+						<a href="index.html" class="active">isuzu</a>
+						<a href="#" class="offer_btn show_xs">
+							Оформить заказ
+							<i class="mdi mdi-file-outline"></i>
+						</a>
+					</div>
+					<div class="responsive_menu_overlay">
+						
+					</div>
+					<div class="responsive_menu_close">
+						<i class="mdi mdi-close"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="second_header">
+			<div class="container">
+				<div class="logo_block">
+					<a href="index.html">
+						<img src="img/logo_black.png">
+					</a>
+				</div>
+				<div class="menu_block">
+					<div class="menu_list">
+						<a href="technics.html">Техника</a>
+						<a href="#">Запчасти</a>
+						<a href="#">Сервис</a>
+						<a href="#" class="active">isuzu</a>
+					</div>
+				</div>
+				<div class="phone_block">
+					<i class="mdi mdi-cellphone"></i>
+					<div class="phone_number">
+						<p>99893 5021701</p>
+						<p>99893 3249545</p>
+					</div>
+				</div>
+				<div class="button_block">
+					<a href="#" class="offer_btn">
+						Оформить заказ
+						<i class="mdi mdi-file-outline"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="types_section section_bg_white" >
+		<div class="container">
+			<div class="row types_list">
+				<div class="col-lg-2 col-md-4 col-sm-6 col-6 type_item active all" data-type="all">
+					<img src="img/all.png">
+					<h5>Все автомобили</h5>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 col-6 type_item"
+				data-type="easy">
+					<img src="img/easy.png">
+					<h5>Малотоннажные</h5>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 col-6 type_item" 
+				data-type="medium">
+					<img src="img/medium.png">
+					<h5>Среднетоннажные</h5>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 col-6 type_item"
+				data-type="heavy">
+					<img src="img/heavy.png">
+					<h5>Тяжелая серия</h5>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 col-6 type_item" 
+				data-type="special">
+					<img src="img/special.png">
+					<h5>Спецтехника</h5>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 col-6 type_item" 
+				data-type="auto_parts">
+					<img src="img/auto_parts.png">
+					<h5>Автозапчасти</h5>
+				</div>
+			</div>
+		</div> 
+	</section>
+	<section class="types_content" id="types">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 filter_block">
+					<form>
+						<div class="filter_list">
+							<h5>Тип двигателя</h5>
+							<div class="filter_list_block">
+								<div class="filter_list_block_item">
+									<label class="container">Дизельный
+										<input type="checkbox" checked="checked" class="checkbox">
+										<span class="checkmark"></span>
+									</label>
+									
+								</div>
+								
+								<div class="filter_list_block_item">
+									
+									<label class="container">Газ
+										<input type="checkbox" checked="checked" class="checkbox">
+										<span class="checkmark"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="filter_list">
+							<h5>Тип коробки</h5>
+							<div class="filter_list_block">
+								<div class="filter_list_block_item">
+									<label class="container">Автомат
+										<input type="checkbox" checked="checked" class="checkbox">
+										<span class="checkmark"></span>
+									</label>
+									
+								</div>
+								<div class="filter_list_block_item">
+									
+									<label class="container">Механика
+										<input type="checkbox" checked="checked" class="checkbox">
+										<span class="checkmark"></span>
+									</label>
+									
+								</div>
+								
+							</div>
+						</div>
+						<div class="filter_list">
+							<h5>Тип привода</h5>
+							<div class="filter_list_block">
+								<div class="filter_list_block_item">
+									<label class="container">Передний привод
+										<input type="checkbox" checked="checked" class="checkbox">
+										<span class="checkmark"></span>
+									</label>
+									
+								</div>
+								<div class="filter_list_block_item">
+									
+									<label class="container">Задний привод
+										<input type="checkbox" checked="checked" class="checkbox">
+										<span class="checkmark"></span>
+									</label>
+									
+								</div>
+								<div class="filter_list_block_item">
+									
+									<label class="container">Полноприводный
+										<input type="checkbox" checked="checked" class="checkbox">
+										<span class="checkmark"></span>
+									</label>
+									
+								</div>
+								
+
+							</div>
+						</div>
+						<div class="reset">
+							<a href="javascript:void(0);">
+								<i class="mdi mdi-close"></i>
+								Сбросить фильтр
+							</a>
+						</div>
+					</form>
+
+				</div>
+				<div class="col-lg-9 col-md-8">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item" data-type-item="auto_parts">
+							<a href="#">
+								<img src="img/auto_parts.png">
+								<h5>от 200.150.000 сум</h5>
+								<h6>Грузовой автомобиль закрытый металлический Isuzu NQR 71pl</h6>
+							</a>				
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item" data-type-item="easy">
+							<a href="#">
+								<img src="img/easy.png">
+								<h5>от 200.150.000 сум</h5>
+								<h6>ISUZU GIGA 6 x 4 Тягач с самосвальным полуприцепом</h6>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item special_offer" data-type-item="medium">
+							<a href="#">
+								<h5>от 200.150.000 сум</h5>
+								<h6>ISUZU Forward 18.0 Промтоварный фургон</h6>
+								<img src="img/type_content_item_zoom.png">
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item" data-type-item="heavy">
+							<a href="#">
+								<img src="img/heavy.png">
+								<h5>от 200.150.000 сум</h5>
+								<h6>ISUZU GIGA 6 x 4 Тягач</h6>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item" data-type-item="special">
+							<a href="#">
+								<img src="img/special.png" >
+								<h5>от 200.150.000 сум</h5>
+								<h6>Like an army falling, one by one by one, now in my remains are promises that never came</h6>
+							</a>				
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item" data-type-item="easy">
+							<a href="#">
+								<img src="img/easy.png">
+								<h5>от 200.150.000 сум</h5>
+								<h6>Like an army falling, one by one by one, now in my remains are promises that never came</h6>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item" data-type-item="medium">
+							<a href="#">
+								<img src="img/medium.png">
+								<h5>от 200.150.000 сум</h5>
+								<h6>Like an army falling, one by one by one, now in my remains are promises that never came</h6>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12 types_content_item" data-type-item="heavy">
+							<a href="#">
+								<img src="img/heavy.png">
+								<h5>от 200.150.000 сум</h5>
+								<h6>Like an army falling, one by one by one, now in my remains are promises that never came</h6>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="google_map" id="map"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 footer_menu">
+					<h5 class="footer_title">Центральный офис</h5>
+					<p>г.Ташкент, Юнусабадский район,<br>
+					ул. и. Ахмада 12</p>
+					<h5 class="footer_num">
+						<i class="mdi mdi-cellphone"></i>
+						99893 5021701, 99893 5021701
+					</h5>
+					<a href="#" class="reach_point">
+						Как добраться?
+						<i class="mdi mdi-open-in-new"></i>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6  footer_menu">
+					<h5 class="footer_title">Сервис центры</h5>
+					<p>г.Ташкент, Юнусабадский район,<br>
+					ул. и. Ахмада 12</p>
+					<h5 class="footer_num">
+						<i class="mdi mdi-cellphone"></i>
+						99893 5021701, 99893 5021701
+					</h5>
+					<a href="#" class="reach_point all_routes_btn">
+						Все сервисы на карте
+						<i class="mdi mdi-open-in-new"></i>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6  footer_menu news_block">
+					<h5 class="footer_title">Последние новости</h5>
+					<p class="red_blockquote">Уважаемые клиенты! Рады сообщить, что теперь 
+					мы работаем по субботам. 
+					<br><br>
+					График работы: с 09ºº – 15ºº. Ждем Вас по адресу: 
+					г.Ташкент, Юнусабадский р-н, ул.И.Ахмада, 12</p>
+					
+					<a href="#" class="reach_point">
+						Все новости
+					</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="second_footer">
+			<div class="container">
+				<div class="row">
+					<p>©2018 ООО «Imagine». Все права защищены. Isuzu зарегистрированная торговая марка на территории РУз</p>
+					<div class="social_block">
+
+						<a href="#">
+							<i class="mdi mdi-facebook"></i>
+						</a>
+						<a href="#">
+							<i class="mdi mdi-telegram"></i>
+						</a>
+						<a href="#">
+							<i class="mdi mdi-instagram"></i>
+						</a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfXeWerazWGYsYA2WA36dgVopJAnejgzE&callback=initMap&">
+    </script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
